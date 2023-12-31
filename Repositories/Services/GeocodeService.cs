@@ -15,7 +15,7 @@ namespace WeatherSoapApi.Repositories.Services.Interfaces
     public class GeocodeService : IGeocodeService
     {
         private readonly HttpClient _client;
-        private readonly String _apiKey = "658c061ef1758773192307pwif59458";
+        private readonly String _apiKey = "";
 
         public GeocodeService(HttpClient client)
         {
